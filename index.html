@@ -1,7 +1,7 @@
 <!--
 Author: Chinatsu Kawakami
 Date: 2017-09-12
-Version 0.0.1 initial commit
+Version 0.0.2 set the textarea and stylesheet in html.index
 -->
 
 <!DOCTYPE html>
@@ -9,9 +9,15 @@ Version 0.0.1 initial commit
 <head>
 <meta charset='utf-8'>
 <title>comment form</title>
+<link rel="stylesheet" href="css/styles.css">
+
 </head>
 <body>
-
+  <div class="container">
+  <textarea placeholder="your comment here"></textarea>
+  <p><span id="label">30</span> character left</p>
+  <div class="btn">submit</div>
+  </div>
 <p>comment</p>
 
 </body>

@@ -1,6 +1,7 @@
 /*
 Author: Chinatsu Kawakami
-Date: 2017-09-12
+created Date: 2017-09-12
+Modified Date: 2017-09-13
 Description: This is the css stylesheet to make the design of index.html better
 */
 
@@ -31,4 +32,25 @@ textarea{
 
 textarea:focus{
 	outline: none;
+}
+
+p{
+	color: #333;
+	font-size: 14px;
+}
+
+#label{
+	font-weight: bold;
+}
+
+.btn{
+	display: inline-block;
+	width:150px;
+	background: #00aaff;
+	padding: 5px;
+	color:#fff;
+	border-radius: 5px
+	text-align:center;
+	cursor: pointer;
+	box-shadow: 0 4px 0 #0088cc;
 }
